@@ -10,7 +10,12 @@ function TopBar() {
   return (
     <div className='flex justify-between w-full items-center px-28 mt-10'>
         <img src={logo} alt="Kapybara Logo" />
-        <button onClick={handleConnect} className='px-6 py-2 bg-neutral-700 rounded-md text-xl font-bold'>Connect</button>
+        <div className='flex gap-3'>
+            {/* ternary here
+            <div>Wallet addy</div> */}
+            <button onClick={handleConnect} className='px-6 py-2 bg-neutral-700 rounded-md text-xl font-bold'>Connect</button>
+
+        </div>
     </div>
   )
 }
