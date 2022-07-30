@@ -3,7 +3,7 @@ import telegram from '../img/tg.png'
 
 function Status() {
   return (
-    <div className='flex flex-col items-center justify-center gap-5 w-1/3'>
+    <div className='flex flex-col items-center gap-5 w-1/3'>
         <h2 className='font-bold text-3xl'>Status</h2>
         <p className='text-black font-bold bg-white rounded-3xl px-5 py-2'>Whitelisted wallets only</p>
         <div className='text-xs w-full text-center underline underline-offset-2	'>
