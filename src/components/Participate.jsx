@@ -7,7 +7,7 @@ function Participate() {
         <div>
 
             {/* ternary here */}
-            <button className='bg-gradient-to-r from-[#E176FC] via-[#F17E6F] to-[#EFBC71] text-black font-bold text-lg rounded-lg px-3 py-1'>Connect Wallet</button>
+            <button className='bg-gradient-to-r to-[#E176FC] via-[#F17E6F] from-[#EFBC71] text-black font-bold text-lg rounded-lg px-3 py-1'>Connect Wallet</button>
 
         </div>
     </div>
