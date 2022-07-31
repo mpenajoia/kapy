@@ -1,16 +1,8 @@
 import React from 'react'
 
 
-function particNow() {
-  // if wallet connected and max allocation NOT reached return this component
-  return (
-    <>
-    </>
-  )
-}
-
-
 function Participate() {
+
   return (
     <div className='flex flex-col items-center gap-2'>
         <h2 className='font-bold text-3xl'>Participate Now</h2>
