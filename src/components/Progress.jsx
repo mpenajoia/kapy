@@ -1,12 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
+import ProgressBar from './ProgressBar'
+import kapy from '../img/kapy.png'
+import kda from '../img/kda.png'
 
 function Progress() {
+
+  const [percent, setPercent] = useState('90') // needs to be updated based on progress of transactions
   return (
     <div className='flex flex-col items-center gap-5 w-1/3'>
         <h2 className='font-bold text-3xl'>Progress</h2>
-        <div>PROGRESS BAR</div>
-        <div>KDA amount locked</div>
-        <div>KAPY amount locked</div>
+        <ProgressBar percent={percent} />
+        <div className='flex gap-2 items-center'>
+          <img className='w-6 h-6' src={kda} alt="KDA" />
+          <p>40,445</p>
+          <p>KDA locked</p>
+        </div>
+        <div className='flex gap-2 items-center'>
+          <img className='w-6 h-6' src={kapy} alt="KAPY" />
+          <p>10,002,293,444</p>
+          <p>KAPY locked</p>
+        </div>
     </div>
   )
 }
