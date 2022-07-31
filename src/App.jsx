@@ -9,10 +9,10 @@ function App() {
   return (
     <div className="w-full flex flex-col items-center gap-5 relative pb-20">
       <TopBar />
-      <h1 className="text-6xl font-bold my-4 bg-clip-text text-transparent bg-gradient-to-b from-[#EFBC71] via-[#F17E6F] to-[#E176FC] leading-tight">Kapybara Token IDO</h1>
+      <h1 className="text-6xl font-bold my-4 bg-clip-text text-transparent bg-gradient-to-b from-[#EFBC71] via-[#F17E6F] to-[#E176FC] leading-tight text-center">Kapybara Token IDO</h1>
       <Content />
       <Participate />
-      <div className="w-[1000px] flex flex-col items-center">
+      <div className="w-full lg:w-[1000px] flex flex-col items-center">
         <Recent />
       </div>
 

@@ -7,7 +7,7 @@ function Progress() {
 
   const [percent, setPercent] = useState(9) // needs to be updated based on progress of transactions
   return (
-    <div className='flex flex-col items-center gap-5 w-1/3'>
+    <div className='flex flex-col items-center gap-5  w-4/5 lg:w-1/3'>
         <h2 className='font-bold text-3xl'>Progress</h2>
         <ProgressBar percent={percent} />
         <div className='flex gap-2 items-center'>

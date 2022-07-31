@@ -11,16 +11,24 @@ function Recent() {
         <h2 className='font-bold text-3xl'>Recent Transactions</h2>
         <div className='flex font-bold w-4/5 justify-between'>
         {/* transactions pulled from the blockchain should be mapped through, returning the following: */}
-        <>
-          <p>Date</p>
-          <img src={kKey} alt="K Account Icon" />
-          <p>K Account #</p>
-          <img className='w-6 h-6' src={kda} alt="KDA" />
-          <p>750 KDA for</p>
-          <img className='w-6 h-6' src={kapy} alt="KAPY" />
-          <p>10,002,293,444 KAPY</p>
-          <a href="#" target="_blank" rel="noopener noreferrer" className='text-blue-500 hover:text-blue-400 font-bold' >View on Explorer</a>
-        </>
+          <div className='flex flex-col items-center gap-2 lg:flex-row lg:justify-between w-full'>
+            <div className='flex'>
+              <p>Date</p>
+            </div>
+            <div className='flex gap-2 items-center'>
+              <img src={kKey} alt="K Account Icon" />
+              <p>K Account #</p>
+            </div>
+            <div className='flex gap-2 items-center'>
+              <img className='w-6 h-6' src={kda} alt="KDA" />
+              <p>750 KDA for</p>
+            </div>
+            <div className='flex gap-2 items-center'>
+              <img className='w-6 h-6' src={kapy} alt="KAPY" />
+              <p>10,002,293,444 KAPY</p>
+            </div>
+            <a href="#" target="_blank" rel="noopener noreferrer" className='text-blue-500 hover:text-blue-400 font-bold' >View on Explorer</a>
+          </div>
 
         </div>
         <button className='bg-gradient-to-r to-[#E176FC] via-[#F17E6F] from-[#EFBC71] text-black font-bold text-lg rounded-lg px-3 py-1'>Load more</button>

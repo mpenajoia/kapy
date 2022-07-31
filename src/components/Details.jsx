@@ -5,7 +5,7 @@ import kwusdc from '../img/kwUSDC.png'
 
 function Details() {
   return (
-    <div className='flex flex-col items-center gap-5 w-1/3'>
+    <div className='flex flex-col items-center gap-5  w-full lg:w-1/3'>
         <h2 className='font-bold text-3xl'>Details</h2>    
         <div className='border border-neutral-500 rounded-lg flex gap-2 w-3/4 justify-center py-4 px-2'>
             <img className='w-6 h-6' src={kda} alt="KDA" />
