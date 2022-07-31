@@ -5,7 +5,7 @@ import kda from '../img/kda.png'
 
 function Progress() {
 
-  const [percent, setPercent] = useState('12') // needs to be updated based on progress of transactions
+  const [percent, setPercent] = useState(9) // needs to be updated based on progress of transactions
   return (
     <div className='flex flex-col items-center gap-5 w-1/3'>
         <h2 className='font-bold text-3xl'>Progress</h2>
