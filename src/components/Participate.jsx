@@ -1,7 +1,13 @@
 import React from 'react'
 
 
-
+function particNow() {
+  // if wallet connected and max allocation NOT reached return this component
+  return (
+    <>
+    </>
+  )
+}
 
 
 function Participate() {
